@@ -2,8 +2,9 @@
 /**
  * Plugin Name: WPCodeBox 2 CLI
  * Description: WP-CLI commands for managing WPCodeBox 2 snippets and folders without the browser UI. Writes directly to the wpcb_snippets/wpcb_folders tables using the same shape WPCodeBox 2's own API layer produces.
- * Version: 1.0.0
- * Author: SportX
+ * Version: 1.0.1
+ * Author: Michael Wender
+ * Author URI: https://mwender.com/
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
