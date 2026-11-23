@@ -8,18 +8,7 @@ It requires WPCodeBox 2 to be installed, and it loads only under WP-CLI.
 
 ### Composer (Bedrock)
 
-Add the repository to your site's `composer.json`:
-
-```json
-"repositories": {
-  "wpcodebox2-cli": {
-    "type": "vcs",
-    "url": "https://github.com/mwender/wpcodebox2-cli"
-  }
-}
-```
-
-Then require it:
+The package is on [Packagist](https://packagist.org/packages/wenmark/wpcodebox2-cli), so no extra repository is needed:
 
 ```bash
 composer require wenmark/wpcodebox2-cli
