@@ -1,0 +1,33 @@
+{
+    "name": "wenmark/wpcodebox2-cli",
+    "description": "WP-CLI commands for managing WPCodeBox 2 snippets and folders without the browser UI.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "wordpress",
+        "wordpress-plugin",
+        "wp-cli",
+        "wpcodebox",
+        "snippets"
+    ],
+    "homepage": "https://github.com/mwender/wpcodebox2-cli",
+    "authors": [
+        {
+            "name": "Michael Wender",
+            "email": "mwender@wenmarkdigital.com",
+            "homepage": "https://mwender.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mwender/wpcodebox2-cli/issues",
+        "source": "https://github.com/mwender/wpcodebox2-cli"
+    },
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^1.0 || ^2.0"
+    },
+    "extra": {
+        "installer-name": "wpcodebox2-cli"
+    }
+}
